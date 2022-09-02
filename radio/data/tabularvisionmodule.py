@@ -471,7 +471,7 @@ class file_type(object):
 
 
 if __name__ == "__main__":
-    test_mod = DepDataModule(
+    test_mod = TabularVisionDataModule(
         root="/home/wangl15@acct.upmchs.net/Desktop/Raw_korean",
         base_csv="/home/antonija/Desktop/circuits/scripts/cnn_depression_linghai/data/data_Dec_8_2021.csv",
     )
